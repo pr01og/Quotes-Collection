@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="press_color">#efefef</color>
+    <color name="default_color">#ffffff</color>
+    <color name="drawer_background">#111111</color>
+</resources>

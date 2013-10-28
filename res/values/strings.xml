@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quotes Collection</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Options</string>
+    <string name="drawer_closed">Contenido</string>
+
+    <string-array name="categories">
+        <item>Everyone</item>
+        <item>Entrepreneurs</item>
+        <item>Writers</item>
+        <item>Leaders</item>
+    </string-array>
+
+    <string name="text_test">        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lectus quis metus, at posuere agouti. Sed orci eget nibh pharetra at posuere leo convallis convallis. Augue vitae augue Sed scelerisque blandit Bibendum. Vivamus turpis libero sit amet, non venenatis urn. In blandit, hate venenatis suscipit convallis, augue at ipsum cursus.</string>
+    <string name="title_activity_think">Think</string>
+</resources>

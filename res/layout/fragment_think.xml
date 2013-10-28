@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp">
+
+        <ImageView
+                android:id="@+id/photo"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/steve"
+                />
+
+        <TextView android:id="@+id/think_body"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:layout_below="@id/photo"
+                  android:text="@string/text_test"
+                  android:textSize="18dp"
+                  android:textStyle="italic"
+                  android:textAlignment="center"
+                />
+
+        <TextView android:id="@+id/author"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@id/think_body"
+                  android:layout_alignParentRight="true"
+                  android:layout_marginTop="10dp"
+                />
+
+        <TextView android:id="@+id/description_author"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@id/author"
+                  android:layout_alignParentRight="true"
+                  android:layout_marginTop="2dp"
+                />
+
+    </RelativeLayout>
+
+</ScrollView>
